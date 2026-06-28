@@ -24,7 +24,7 @@ Wanna reach me? Hit me up on Telegram.
 
 ## My Current Devices
 
-- 🖥️ Main rig — RTX 2080 Ti 22GB (＋ a fleet of assorted PCs and Macs)
+- 🖥️ Main rig — RTX 2080 Ti 22GB (＋ a fleet of assorted  [potato] PCs and Macs)
 - 📱 Pixel 8
 - 📲 iPad 7
 - 🖨️ Bambu Lab A1 mini
