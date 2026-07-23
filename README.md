@@ -33,8 +33,8 @@ Wanna reach me? Hit me up on Telegram.
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Tchirek&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tchirek&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top languages" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Tchirek&theme=tokyonight" alt="GitHub stats" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Tchirek&theme=tokyonight" alt="Top languages" />
 </p>
 
 ## 🛠️ I tinker with
