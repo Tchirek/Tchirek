@@ -10,9 +10,6 @@ New to everything.
 
 I mostly build small self-hosted tools, the privacy-first kind I can run myself. Right now most of them live on Cloudflare (Workers, R2, D1), with a small local program that does the syncing.
 
-<table align="center">
-<tr>
-<td>
 <pre>
 root@tchirek:~$ tchirek repo list --table
  |============= REPO =============|============================= DESC =============================|
@@ -23,9 +20,6 @@ root@tchirek:~$ tchirek repo list --table
  |================================|================================================================|
 root@tchirek:~$ cryptsetup luksFormat /dev/nvme0n1p2▍
 </pre>
-</td>
-</tr>
-</table>
 
 #### `Contact information`
 
