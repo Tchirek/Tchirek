@@ -12,13 +12,12 @@ I mostly build small self-hosted tools, the privacy-first kind I can run myself.
 
 <pre>
 root@tchirek:~$ tchirek repo list --table
- |==============================|=============================================================================================|
- |             REPO             |                                            DESC                                             |
- | <a href="https://github.com/Tchirek/normalpics">Tchirek/normalpics</a>           | private-first photo hosting on R2/D1 with a local sync daemon. The one I work on most.      |
- | <a href="https://github.com/Tchirek/normaldocs">Tchirek/normaldocs</a>           | document sharing, with R2 upload and a preview pipeline.                                    |
- | <a href="https://github.com/Tchirek/pr1nt">Tchirek/pr1nt</a>                | a self-hosted print station for my print shop, written in Rust.                             |
- | <a href="https://github.com/Tchirek/sicnu-webforms-fix">Tchirek/sicnu-webforms-fix</a>   | No LODOP.                                                                                   |
- |==============================|=============================================================================================|
+ |============= REPO =============|============================= DESC =============================|
+ | <a href="https://github.com/Tchirek/normalpics">Tchirek/normalpics</a>             | Private-first photo hosting on R2/D1 with a local sync daemon  |
+ | <a href="https://github.com/Tchirek/normaldocs">Tchirek/normaldocs</a>             | R2-backed document sharing with a preview pipeline             |
+ | <a href="https://github.com/Tchirek/pr1nt">Tchirek/pr1nt</a>                  | Self-hosted Rust print station for my print shop               |
+ | <a href="https://github.com/Tchirek/sicnu-webforms-fix">Tchirek/sicnu-webforms-fix</a>     | No LODOP.                                                       |
+ |================================|================================================================|
 root@tchirek:~$ cryptsetup luksFormat /dev/nvme0n1p2▍
 </pre>
 
