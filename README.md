@@ -10,16 +10,22 @@ New to everything.
 
 I mostly build small self-hosted tools, the privacy-first kind I can run myself. Right now most of them live on Cloudflare (Workers, R2, D1), with a small local program that does the syncing.
 
+<table align="center">
+<tr>
+<td>
 <pre>
 root@tchirek:~$ tchirek repo list --table
  |============= REPO =============|============================= DESC =============================|
  | <a href="https://github.com/Tchirek/normalpics">Tchirek/normalpics</a>             | Private-first photo hosting on R2/D1 with a local sync daemon  |
  | <a href="https://github.com/Tchirek/normaldocs">Tchirek/normaldocs</a>             | R2-backed document sharing with a preview pipeline             |
  | <a href="https://github.com/Tchirek/pr1nt">Tchirek/pr1nt</a>                  | Self-hosted Rust print station for my print shop               |
- | <a href="https://github.com/Tchirek/sicnu-webforms-fix">Tchirek/sicnu-webforms-fix</a>     | No LODOP.                                                       |
+ | <a href="https://github.com/Tchirek/sicnu-webforms-fix">Tchirek/sicnu-webforms-fix</a>     | NO LODOP (&gt;_&lt;)                                                 |
  |================================|================================================================|
 root@tchirek:~$ cryptsetup luksFormat /dev/nvme0n1p2▍
 </pre>
+</td>
+</tr>
+</table>
 
 #### `Contact information`
 
