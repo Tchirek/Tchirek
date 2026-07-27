@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://count.getloli.com/get/@Tchirek?theme=moebooru" alt="visitor counter" />
-</p>
-
 ### This is Tchirek
 
 New to everything.
