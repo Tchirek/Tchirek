@@ -37,15 +37,11 @@ Wanna reach me? Hit me up on Telegram.
 
 #### 📊 `GitHub Stats`
 
-#### 📊 `GitHub Stats`
-
 <p align="center">
-  <img width="720" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Tchirek&theme=tokyonight" alt="GitHub profile details" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Tchirek&theme=tokyonight" alt="GitHub profile details" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Tchirek&theme=tokyonight&utcOffset=8" alt="Productive time" />
 </p>
 
-<p align="center">
-  <img width="360" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Tchirek&theme=tokyonight&utcOffset=8" alt="GitHub productive time" />
-</p>
 
 #### 🛠️ `I tinker with`
 
