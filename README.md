@@ -11,7 +11,7 @@ root@tchirek:~$ tchirek repo list --table
  |============= REPO =============|============================= DESC =============================|
  | <a href="https://github.com/Tchirek/normalpics">Tchirek/normalpics</a>             | Private-first photo hosting on R2/D1 with a local sync daemon  |
  | <a href="https://github.com/Tchirek/normaldocs">Tchirek/normaldocs</a>             | R2-backed document sharing with a preview pipeline             |
- | <a href="https://github.com/Tchirek/pr1nt">Tchirek/pr1nt</a>                  | Self-hosted Rust print station for my print shop               |
+ | <a href="https://github.com/Tchirek/pr1nt">Tchirek/pr1nt</a>                  | Self-hosted Rust print station moonlighting for my print shop  |
  | <a href="https://github.com/Tchirek/sicnu-webforms-fix">Tchirek/sicnu-webforms-fix</a>     | NO LODOP (&gt;_&lt;)                                                 |
  |================================|================================================================|
 root@tchirek:~$ cryptsetup luksFormat /dev/nvme0n1p2▍
