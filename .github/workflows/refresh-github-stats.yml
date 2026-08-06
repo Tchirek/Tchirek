@@ -1,0 +1,108 @@
+name: Refresh GitHub stats
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-stats
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Require summary token
+        env:
+          SUMMARY_GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ -z "$SUMMARY_GITHUB_TOKEN" ]]; then
+            echo "::error::Add the read-only SUMMARY_GITHUB_TOKEN repository secret before running this workflow."
+            exit 1
+          fi
+
+      - name: Generate cards locally
+        uses: ./.github/actions/github-profile-summary-cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+        with:
+          USERNAME: Tchirek
+          UTC_OFFSET: 8
+          THEME: ""
+          ANIMATION: draw
+          DURATION: ""
+          AUTO_PUSH: false
+
+      - name: Validate and install displayed cards
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          declare -A cards=(
+            [profile-summary-card-output/github_dark/3-stats.svg]=assets/github-stats/stats-dark.svg
+            [profile-summary-card-output/github/3-stats.svg]=assets/github-stats/stats-light.svg
+            [profile-summary-card-output/github_dark/4-productive-time.svg]=assets/github-stats/productive-time-dark.svg
+            [profile-summary-card-output/github/4-productive-time.svg]=assets/github-stats/productive-time-light.svg
+          )
+
+          for source in "${!cards[@]}"; do
+            test -s "$source"
+            grep -Fq 'width="340" height="200" viewBox="0 0 340 200"' "$source"
+            grep -Fq '@keyframes gpsc-' "$source"
+
+            if grep -Eiq 'https://|<script\b|<image\b|@import\b' "$source"; then
+              echo "::error file=$source::Generated card contains a runtime dependency."
+              exit 1
+            fi
+
+            install -m 0644 "$source" "${cards[$source]}"
+          done
+
+      - name: Commit changed cards
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git add -- \
+            assets/github-stats/stats-dark.svg \
+            assets/github-stats/stats-light.svg \
+            assets/github-stats/productive-time-dark.svg \
+            assets/github-stats/productive-time-light.svg
+
+          if git diff --cached --quiet; then
+            echo "Cards are already current."
+            exit 0
+          fi
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: refresh GitHub stats'
+
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            if [[ "$attempt" -eq 3 ]]; then
+              echo "::error::Could not fast-forward main after three attempts."
+              exit 1
+            fi
+
+            git fetch --no-tags origin main
+            git rebase FETCH_HEAD
+          done
