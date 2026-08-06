@@ -39,14 +39,14 @@ Wanna reach me? Hit me up on Telegram.
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Tchirek&theme=github_dark&animation=draw">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Tchirek&theme=github&animation=draw">
-    <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Tchirek&theme=github&animation=draw" alt="GitHub stats">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/github-stats/stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/github-stats/stats-light.svg">
+    <img height="165" src="https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/github-stats/stats-light.svg" alt="GitHub stats">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Tchirek&theme=github_dark&utcOffset=8&animation=draw">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Tchirek&theme=github&utcOffset=8&animation=draw">
-    <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Tchirek&theme=github&utcOffset=8&animation=draw" alt="Productive time">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/github-stats/productive-time-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/github-stats/productive-time-light.svg">
+    <img height="165" src="https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/github-stats/productive-time-light.svg" alt="Productive time">
   </picture>
 </p>
 
