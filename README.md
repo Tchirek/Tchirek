@@ -1,6 +1,7 @@
 ### This is Tchirek
 
-New to everything.
+In AEC.
+Already building — software, unfortunately.
 
 #### `Focus`
 
