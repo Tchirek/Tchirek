@@ -34,8 +34,8 @@ Wanna reach me? Hit me up on Telegram.
 ![Google Pixel 8](https://img.shields.io/badge/Google%20Pixel%208-4285f4?style=flat-square&logo=google&logoColor=ffffff)
 ![Apple iPad 7](https://img.shields.io/badge/Apple%20iPad%207-a2aaad?style=flat-square&logo=apple&logoColor=ffffff)
 ![Bambu Lab A1 mini](https://img.shields.io/badge/Bambu%20Lab%20A1%20mini-00AE42?style=flat-square&logo=bambulab&logoColor=ffffff)
-![RTL-SDR Blog V4](assets/devices/rtl-sdr-blog-v4.svg)<br>
-![TC Electronic Desktop Konnekt 6](assets/devices/tc-electronic-desktop-konnekt-6.svg)
+![RTL-SDR Blog V4](https://cdn.jsdelivr.net/gh/Tchirek/Tchirek@00ccb58875c654ef37f8ca58225e9b499dfe7bbe/assets/devices/rtl-sdr-blog-v4.svg)<br>
+![TC Electronic Desktop Konnekt 6](https://cdn.jsdelivr.net/gh/Tchirek/Tchirek@00ccb58875c654ef37f8ca58225e9b499dfe7bbe/assets/devices/tc-electronic-desktop-konnekt-6.svg)
 
 #### 📊 `GitHub Stats`
 
