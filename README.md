@@ -31,11 +31,11 @@ Wanna reach me? Hit me up on Telegram.
 
 🖥️ Main rig — RTX 2080 Ti 22GB (＋ a fleet of assorted  [potato] PCs and Macs)
 
-![Google Pixel 8](https://img.shields.io/badge/Google%20Pixel%208-4285f4?style=flat-square&logo=google&logoColor=ffffff)
-![Apple iPad 7](https://img.shields.io/badge/Apple%20iPad%207-a2aaad?style=flat-square&logo=apple&logoColor=ffffff)
-![Bambu Lab A1 mini](https://img.shields.io/badge/Bambu%20Lab%20A1%20mini-00AE42?style=flat-square&logo=bambulab&logoColor=ffffff)
-![RTL-SDR Blog V4](https://cdn.jsdelivr.net/gh/Tchirek/Tchirek@00ccb58875c654ef37f8ca58225e9b499dfe7bbe/assets/devices/rtl-sdr-blog-v4.svg)<br>
-![TC Electronic Desktop Konnekt 6](https://cdn.jsdelivr.net/gh/Tchirek/Tchirek@00ccb58875c654ef37f8ca58225e9b499dfe7bbe/assets/devices/tc-electronic-desktop-konnekt-6.svg)
+![Google Pixel 8](https://tchirek.github.io/Tchirek/assets/devices/google-pixel-8.svg)
+![Apple iPad 7](https://tchirek.github.io/Tchirek/assets/devices/apple-ipad-7.svg)
+![Bambu Lab A1 mini](https://tchirek.github.io/Tchirek/assets/devices/bambu-lab-a1-mini.svg)
+![RTL-SDR Blog V4](https://tchirek.github.io/Tchirek/assets/devices/rtl-sdr-blog-v4.svg)<br>
+![TC Electronic Desktop Konnekt 6](https://tchirek.github.io/Tchirek/assets/devices/tc-electronic-desktop-konnekt-6.svg)
 
 #### 📊 `GitHub Stats`
 
@@ -55,7 +55,7 @@ Wanna reach me? Hit me up on Telegram.
 #### 🛠️ `I tinker with`
 
 <p align="center">
-  <img width="720" src="https://skillicons.dev/icons?i=html,css,js,ts,python,r,latex,react,vue,rust,nodejs,electron,vite,git,github,bash,docker,kubernetes,vscode,idea,pycharm,cloudflare,arduino,raspberrypi,sqlite,mysql,postgres,mongodb,redis,linux,arch,ubuntu,debian,mint,ps,ai,pr,ae,au,figma,sketchup,autocad,blender&perline=16" alt="skills" />
+  <img width="720" src="https://tchirek.github.io/Tchirek/assets/skills.svg" alt="skills" />
 </p>
 
 ---
