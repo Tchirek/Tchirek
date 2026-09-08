@@ -1,10 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="123" height="20" viewBox="0 0 123 20" role="img" aria-label="RTL-SDR Blog V4">
   <title>RTL-SDR Blog V4</title>
-  <rect width="123" height="20" fill="#555555" />
-  <svg x="5" y="3" width="14" height="14" viewBox="0 0 16 16">
-    <rect width="16" height="16" fill="#fff" />
+  <rect width="123" height="20" fill="#000000" />
+  <svg x="5" y="3" width="14" height="14" viewBox="164 -3011 3800 3011">
     <!-- R, T, L glyphs extracted from RTL-SDR website League Gothic Regular: https://www.rtl-sdr.com/wp-content/themes/blaskan2p5/fonts/league_gothic-webfont.ttf -->
-    <path fill="#000" transform="translate(2.51610761 12) scale(0.0026569246 -0.0026569246)" d="M1397 0H954L725 1270H606V0H164V3011H606Q1360 3011 1360 2142Q1360 1626 1114 1458ZM903 2376Q873 2474 813.0 2513.0Q753 2552 711 2562Q670 2572 606 2572V1679Q665 1679 711 1690Q753 1700 813.0 1739.0Q873 1778 903 1876Q934 1978 934.0 2126.0Q934 2274 903 2376ZM1904 2556H1486V3011H2764V2556H2346V0H1904ZM2936 0V3011H3378V410H3964V0Z" />
+    <path fill="#fff" transform="scale(1 -1)" d="M1397 0H954L725 1270H606V0H164V3011H606Q1360 3011 1360 2142Q1360 1626 1114 1458ZM903 2376Q873 2474 813.0 2513.0Q753 2552 711 2562Q670 2572 606 2572V1679Q665 1679 711 1690Q753 1700 813.0 1739.0Q873 1778 903 1876Q934 1978 934.0 2126.0Q934 2274 903 2376ZM1904 2556H1486V3011H2764V2556H2346V0H1904ZM2936 0V3011H3378V410H3964V0Z" />
   </svg>
   <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
     <text x="705" y="140" textLength="950" transform="scale(.1)">RTL-SDR Blog V4</text>
