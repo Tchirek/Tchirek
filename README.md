@@ -31,11 +31,11 @@ Wanna reach me? Hit me up on Telegram.
 
 🖥️ Main rig — RTX 2080 Ti 22GB (＋ a fleet of assorted  [potato] PCs and Macs)
 
-![Google Pixel 8](https://tchirek.github.io/Tchirek/assets/devices/google-pixel-8.svg)
-![Apple iPad 7](https://tchirek.github.io/Tchirek/assets/devices/apple-ipad-7.svg)
-![Bambu Lab A1 mini](https://tchirek.github.io/Tchirek/assets/devices/bambu-lab-a1-mini.svg)
-![RTL-SDR Blog V4](https://tchirek.github.io/Tchirek/assets/devices/rtl-sdr-blog-v4.svg)<br>
-![TC Electronic Desktop Konnekt 6](https://tchirek.github.io/Tchirek/assets/devices/tc-electronic-desktop-konnekt-6.svg)
+![Google Pixel 8](https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/devices/google-pixel-8.svg)
+![Apple iPad 7](https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/devices/apple-ipad-7.svg)
+![Bambu Lab A1 mini](https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/devices/bambu-lab-a1-mini.svg)
+![RTL-SDR Blog V4](https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/devices/rtl-sdr-blog-v4.svg)<br>
+![TC Electronic Desktop Konnekt 6](https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/devices/tc-electronic-desktop-konnekt-6.svg)
 
 #### 📊 `GitHub Stats`
 
@@ -55,7 +55,7 @@ Wanna reach me? Hit me up on Telegram.
 #### 🛠️ `I tinker with`
 
 <p align="center">
-  <img width="720" src="https://tchirek.github.io/Tchirek/assets/skills.svg" alt="skills" />
+  <img width="720" src="https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/skills.svg" alt="skills" />
 </p>
 
 ---

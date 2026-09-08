@@ -13,7 +13,7 @@ Device names remain SVG text in the original Verdana font stack; no webfonts are
 
 ## Hosting
 
-GitHub Pages serves this repository directly from `main` at `/`, with `.nojekyll` disabling Jekyll processing. README badges and the skill sheet use `https://tchirek.github.io/Tchirek/assets/`; GitHub wraps the badges in its Camo image proxy, preserving direct image links. Statistics retain their existing raw.githubusercontent.com URLs and local refresh workflow. No third-party image service, CDN, or webfont is needed to display the profile.
+Every README image points directly to a file in this repository under `https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/`. No GitHub Pages site, Camo URL, third-party image service, CDN, or webfont is referenced. Statistics retain their local refresh workflow.
 
 ## Skill Icons
 
