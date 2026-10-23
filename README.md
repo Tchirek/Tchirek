@@ -27,9 +27,9 @@ Main rig — RTX 2080 Ti 22GB (+ a fleet of assorted [potato] PCs and Macs)
 ![Google Pixel 8](https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/devices/google-pixel-8.svg)
 ![Apple iPhone 13](https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/devices/apple-iphone-13.svg)
 ![Apple iPad 7](https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/devices/apple-ipad-7.svg)
-![Bambu Lab A1 mini](https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/devices/bambu-lab-a1-mini.svg)
-![RTL-SDR Blog V4](https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/devices/rtl-sdr-blog-v4.svg)<br>
+![Bambu Lab A1 mini](https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/devices/bambu-lab-a1-mini.svg)<br>
 ![TC Electronic Desktop Konnekt 6](https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/devices/tc-electronic-desktop-konnekt-6.svg)
+![RTL-SDR Blog V4](https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/devices/rtl-sdr-blog-v4.svg)
 
 <p align="center">
   <picture>
