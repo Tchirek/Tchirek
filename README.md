@@ -17,7 +17,7 @@ root@tchirek:~$ tchirek repo list --table
  | <a href="https://github.com/Tchirek/course2md-web">Tchirek/course2md-web</a>          | Made this because everything needs an LLM                      |
  | <a href="https://github.com/Tchirek/sicnu-webforms-fix">Tchirek/sicnu-webforms-fix</a>     | NO LODOP (&gt;_&lt;)                                                 |
  |================================|================================================================|
-root@tchirek:~$ cryptsetup luksFormat /dev/nvme0n1p2▍
+root@tchirek:~# cryptsetup luksFormat /dev/nvme0n1p2▍
 </pre>
 
 #### `My Current Devices`
