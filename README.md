@@ -28,8 +28,6 @@ Main rig — RTX 2080 Ti 22GB (+ a fleet of assorted [potato] PCs and Macs)
 ![RTL-SDR Blog V4](https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/devices/rtl-sdr-blog-v4.svg)<br>
 ![TC Electronic Desktop Konnekt 6](https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/devices/tc-electronic-desktop-konnekt-6.svg)
 
-#### 📊 `GitHub Stats`
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/github-stats/stats-dark.svg">
