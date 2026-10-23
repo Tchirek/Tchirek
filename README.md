@@ -7,7 +7,7 @@ Already building — software, unfortunately.
 PGP: [`124E 20C7 1C20 914A 98D0 9DCE 12A7 4035 9AF6 9CC3`](https://github.com/Tchirek.gpg)
 
 <pre>
-root@tchirek:~$ tchirek repo list --table
+root@tchirek:~# tchirek repo list --table
  |============= REPO =============|============================= DESC =============================|
  | <a href="https://github.com/Tchirek/normalpics">Tchirek/normalpics</a>             | Private-first photo hosting on R2/D1 with a local sync daemon  |
  | <a href="https://github.com/Tchirek/normaldocs">Tchirek/normaldocs</a>             | R2-backed document sharing with a preview pipeline             |
