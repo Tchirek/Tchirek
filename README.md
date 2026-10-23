@@ -20,7 +20,7 @@ root@tchirek:~$ cryptsetup luksFormat /dev/nvme0n1p2▍
 
 #### `My Current Devices`
 
-🖥️ Main rig — RTX 2080 Ti 22GB (＋ a fleet of assorted  [potato] PCs and Macs)
+Main rig — RTX 2080 Ti 22GB (+ a fleet of assorted [potato] PCs and Macs)
 
 ![Google Pixel 8](https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/devices/google-pixel-8.svg)
 ![Apple iPad 7](https://raw.githubusercontent.com/Tchirek/Tchirek/main/assets/devices/apple-ipad-7.svg)
