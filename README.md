@@ -4,10 +4,6 @@ In AEC.
 
 Already building — software, unfortunately.
 
-#### `Focus`
-
-I mostly build small self-hosted tools, the privacy-first kind I can run myself. Right now most of them live on Cloudflare (Workers, R2, D1), with a small local program that does the syncing.
-
 <pre>
 root@tchirek:~$ tchirek repo list --table
  |============= REPO =============|============================= DESC =============================|
@@ -21,14 +17,6 @@ root@tchirek:~$ tchirek repo list --table
  |================================|================================================================|
 root@tchirek:~$ cryptsetup luksFormat /dev/nvme0n1p2▍
 </pre>
-
-#### `Contact information`
-
-Wanna reach me? Hit me up on Telegram.
-
-- **Telegram:** [@tch1r3k](https://t.me/tch1r3k)
-- **E-mail:** C8H10N4O2@tchirek.top
-- **Bilibili:** [tch1r3k](https://space.bilibili.com/9708964)
 
 #### `My Current Devices`
 
