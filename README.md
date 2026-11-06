@@ -11,7 +11,7 @@ root@tchirek:~# tchirek repo list --table
  |============= REPO =============|============================= DESC =============================|
  | <a href="https://github.com/Tchirek/normalpics">Tchirek/normalpics</a>             | Private-first photo hosting on R2/D1 with a local sync daemon  |
  | <a href="https://github.com/Tchirek/normaldocs">Tchirek/normaldocs</a>             | R2-backed document sharing with a preview pipeline             |
- | <a href="https://github.com/Tchirek/pr1nt">Tchirek/pr1nt</a>                  | Self-hosted Rust print station moonlighting for my print shop  |
+ | <a href="https://github.com/Tchirek/pr1nt">Tchirek/pr1nt</a>                  | Ruaaast print station moonlighting for my print shop           |
  | <a href="https://github.com/Tchirek/lizai-ZUSN-bianshang-fanghao" aria-label="Tchirek/lizai-ZUSN-bianshang-fanghao">Tchirek/lizai-ZUSN-bianshang…</a>  | Mraowww. Where do I even begin...                              |
  | <a href="https://github.com/Tchirek/astro-twenty-ten">Tchirek/astro-twenty-ten</a>       | I first heard of WordPress when it was already outdated        |
  | <a href="https://github.com/Tchirek/course2md-web">Tchirek/course2md-web</a>          | Made this because everything needs an LLM                      |
