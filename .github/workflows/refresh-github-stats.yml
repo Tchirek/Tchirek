@@ -24,22 +24,12 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: Require summary token
-        env:
-          SUMMARY_GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          if [[ -z "$SUMMARY_GITHUB_TOKEN" ]]; then
-            echo "::error::Add the read-only SUMMARY_GITHUB_TOKEN repository secret before running this workflow."
-            exit 1
-          fi
-
       - name: Generate cards locally
         uses: ./.github/actions/github-profile-summary-cards
         env:
-          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+          # The built-in token can read this account's public contribution data,
+          # so no expiring PAT is needed. A PAT would only add private-repo counts.
+          GITHUB_TOKEN: ${{ github.token }}
         with:
           USERNAME: Tchirek
           UTC_OFFSET: 8
